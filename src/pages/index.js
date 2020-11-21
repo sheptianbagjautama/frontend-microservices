@@ -1,25 +1,27 @@
 import Head from 'next/head'
 import Link from 'next/link'
-
-import axios from 'configs/axios'
-
-
+import axios from 'src/configs/axios'
+import Circle from 'public/images/circle-accent-1.svg'
+import Header from 'src/parts/Header'
 function Home(props) {
 
   return (
-    <div className="container mx-auto mt-4">
+    <>
       <Head>
         <title>BWAMICRO</title>
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <main>
-        <h1>Saya halaman utama</h1>
-        <Link href="/random">
-          <a>Bring me to random fetch page</a>
-        </Link>
+        <section className="header-clipping pt-10">
+          <Circle className="absolute left-0 bottom-0"></Circle>
+          <div className="sunshine"></div>
+          <div className="container mx-auto">
+            <Header></Header>
+          </div>
+        </section>
       </main>
-    </div>
+    </>
   )
 }
 

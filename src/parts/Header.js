@@ -20,16 +20,16 @@ export default function Header({onLight}) {
             </div>
             <ul className="flex">
                 <li>
-                    <Link href="/"><a className={[linkColor, "text-white hover:text-teal-500 text-lg px-6 py-3"].join(" ")}>Home</a></Link>
+                    <Link href="/"><a className={[linkColor, "text-white hover:text-teal-500 text-lg px-6 py-3 font-medium"].join(" ")}>Home</a></Link>
                 </li>
                 <li>
-                    <Link href="/"><a className={[linkColor, "text-white hover:text-teal-500 text-lg px-6 py-3"].join(" ")}>Pricing</a></Link>
+                    <Link href="/"><a className={[linkColor, "text-white hover:text-teal-500 text-lg px-6 py-3 font-medium"].join(" ")}>Pricing</a></Link>
                 </li>
                 <li>
-                    <Link href="/"><a className={[linkColor, "text-white hover:text-teal-500 text-lg px-6 py-3"].join(" ")}>Features</a></Link>
+                    <Link href="/"><a className={[linkColor, "text-white hover:text-teal-500 text-lg px-6 py-3 font-medium"].join(" ")}>Features</a></Link>
                 </li>
                 <li>
-                    <Link href="/"><a className={[linkColor, "text-white hover:text-teal-500 text-lg px-6 py-3"].join(" ")}>Story</a></Link>
+                    <Link href="/"><a className={[linkColor, "text-white hover:text-teal-500 text-lg px-6 py-3 font-medium"].join(" ")}>Story</a></Link>
                 </li>
                 <li>
                     <a target="_blank" rel="noopener noereferrer" href={linkCTA} 
